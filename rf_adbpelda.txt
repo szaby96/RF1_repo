@@ -1,0 +1,25 @@
+Felhasználó: id, nev, jelszó, mail
+Könyv: cím, isbn, kategória, darab, leírás
+Kölcsönzés: k_id, felhasználó.id, könyv.isbn
+
+
+
+
+package model{
+Book.java
+User.java
+}
+package database{
+dbDAO.java
+}
+package logic{
+Borrow.java
+Return.java
+Fetch.java
+}
+package main{
+Main.java
+}
+package server{
+CORS.java
+}
