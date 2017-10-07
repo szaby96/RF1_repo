@@ -1,6 +1,6 @@
-Felhasználó: id, nev, jelszó, mail
-Könyv: cím, isbn, kategória, darab, leírás
-Kölcsönzés: k_id, felhasználó.id, könyv.isbn
+﻿Felhasználó: id, név,felhasználónév jelszó, email
+Könyv:	isbn,cím, kategória, darab, leírás, kölcsönzések_száma, feltöltés_dátuma
+Kölcsönzés: kölcs_id, felh_id, könyv_isbn, kölcs_dátum,kölcs_lejárat
 
 
 
