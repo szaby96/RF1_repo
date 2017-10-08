@@ -2,18 +2,36 @@ body,html{
     height:100%;
 
 }
+header{
+    border:3px black solid;
+    width: 70%;
+    margin-left: 15%;
+    text-align: center;
+
+}
+
+
+#topnav{
+    border-left:3px black solid;
+    border-right:3px black solid;
+    width: 70%;
+    margin-left: 15%;
+}
+
+
 #main{
+    border:3px black solid;
     height: 70%;
     width: 70%;
     margin-left: 15%;
 }
 aside{
-    border:3px black solid;
+    border-bottom:3px black solid;
+    border-right: 3px black solid;
     width: 15%;
     height: 50%;
     float:left;
 }
 article{
-    border:3px black solid;
     height: 100%;
 }
